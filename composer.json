@@ -1,0 +1,27 @@
+{
+    "name": "marom/ci4-tools",
+    "description": "Ci4 Tools",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Marom\\Ci4Tools\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marom Beltran",
+            "email": "mrmbeltran@proton.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "codeigniter4/devkit": "^1.1"
+    },
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
+    }
+}
